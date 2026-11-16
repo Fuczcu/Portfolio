@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Bogart";
+    src: url("../fonts/bogart/Bogart-Regular-trial.ttf");
+}
+
+@font-face {
+    font-family: "Monsterrat";
+    src: url("../fonts/monsterrat/Montserrat-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Monsterrat";
+    src: url("../fonts/monsterrat/Montserrat-Regular.ttf");
+}
+
+body {
+    font-family: "Monsterrat";
+    background-color: #fff8ed;
+    color: black;
+}
+
+.main-headline {
+    font-size: 64px;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.main-img {
+    height: 100dvh;
+}
+
+.main-header {
+    font-size: 120px;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+.test-margin {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.test-margin-top {
+    margin-top: 2.5rem;
+    margin-bottom: -2rem;
+}
+
+.x-padding {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.bogart {
+    font-family: "Bogart";
+}
+
+.second-header {
+    font-size: 35px;
+}
+
+.monsterrat-bold {
+    font-weight: bold;
+}
+
+/* .achievement-img-container {
+    height: 65dvh;
+} */
+
+.contact-header {
+    font-size: 76px;
+}
+
+.image-view {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.image-view-image {
+    max-width: 85%;
+    max-height: 85%;
+}
+
+@media (width < 1147px) {
+    .main-img {
+        width: 100dvw;
+        height: auto;
+    }
+}
+
+@media (width < 530px) {
+    .main-header {
+        font-size: 80px;
+    }
+
+    .x-padding {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .contact-header {
+        font-size: 60px;
+    }
+}
