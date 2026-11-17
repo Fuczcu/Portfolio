@@ -48,9 +48,6 @@ class PictureGallery {
     }
 }
 
-new PictureGallery("#design-picture-container", "#load-more-designs");
-new PictureGallery("#photography-pictures", "#load-more-photography");
-
 document.querySelectorAll("img").forEach((element) => {
     element.addEventListener("click", () => {
         const imageViewContainer = document.querySelector("#image-view-container");

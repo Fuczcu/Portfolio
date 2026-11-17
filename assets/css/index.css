@@ -51,6 +51,11 @@ p, li {
     margin-bottom: -2rem;
 }
 
+.test-margin-bottom {
+    margin-top: -2rem;
+    margin-bottom: 2.5rem;
+}
+
 .x-padding {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -83,6 +88,10 @@ p, li {
 .image-view-image {
     max-width: 85%;
     max-height: 85%;
+}
+
+.max-w-75 {
+    max-width: 75%;
 }
 
 @media (width < 1147px) {
